@@ -38,6 +38,10 @@ h2 {
   border: 1px solid #5a3314;
 }
 
+.titulo-resultado {
+  text-align: center;
+}
+
 .descripcion {
   text-align: center;
   color: #d6b08c;
@@ -196,4 +200,12 @@ button:hover {
     width: 100%;
     max-width: 280px;
   }
+
+  .titulo-resultado {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto 12px auto;
+  text-align: center;
+}
 }
