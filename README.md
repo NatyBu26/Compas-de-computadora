@@ -13,10 +13,24 @@ Aplicación web sencilla para armar parejas aleatorias en el aula.
 - CSS
 - JavaScript
 
+## Estructura del proyecto
+
+```
+Compas-de-computadora/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── imagenes/
+    └── logo-chicos-en-compu.png
+```
+
 ## Uso
+
 1. Escribir un nombre por línea en cada lista.
 2. Hacer clic en **Generar parejas**.
 3. Ver el resultado en pantalla.
+
 
 ## Objetivo
 Este proyecto fue pensado como una herramienta práctica para organizar compañeros de computadora para el aula de programación.
