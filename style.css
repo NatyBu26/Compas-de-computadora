@@ -1,0 +1,135 @@
+body {
+  font-family: Consolas, 'Courier New', monospace;
+  background-color: #111111;
+  color: #f5f2e8;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background-color: #181818;
+  padding: 25px;
+  padding-top: 90px;
+  border-radius: 18px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+  border: 1px solid #2b2b2b;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  color: #19ff6a;
+  font-size: 2,5rem;
+  margin-top: -6px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #e67e22;
+  background-color: #111111;
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 12px;
+  border: 1px solid #5a3314;
+}
+
+.descripcion {
+  text-align: center;
+  color: #d6b08c;
+  margin-bottom: 25px;
+}
+
+.listas {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.bloque {
+  flex: 1;
+  min-width: 300px;
+  background-color: #1a1d22;
+  padding: 15px;
+  border-radius: 14px;
+  border: 1px solid #2c3138;
+}
+
+textarea {
+   width: 100%;
+  height: 220px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #6b4a32;
+  border-radius: 10px;
+  resize: vertical;
+  box-sizing: border-box;
+  background-color: #141414;
+  color: #f5f2e8;
+  font-family: Consolas, 'Courier New', monospace;
+}
+
+textarea::placeholder {
+  color: #b08968;
+}
+
+.botones {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 12px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #ea7a1a;
+  color: #fff7ed;
+  font-family: Consolas, 'Courier New', monospace;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #c96512;
+}
+
+.resultado {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #15181c;
+  border-radius: 12px;
+  border: 1px solid #2c3138;
+}
+
+#resultado p {
+  margin: 8px 0;
+  padding: 10px;
+  background-color: #2a211b;
+  border-radius: 8px;
+  border-left: 4px solid #ea7a1a;
+}
+
+.logo-esquina {
+  position: absolute;
+  top: 20px;
+  left: 55px;
+}
+
+.logo-esquina img {
+  width: 130px;
+  height: 130px;
+  display: block;
+  border-radius: 50%;
+  border: 3px solid #ea7a1a;
+  object-fit: cover;
+  background-color: #111111;
+  padding: 6px;
+}
